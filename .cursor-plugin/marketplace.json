@@ -1,0 +1,14 @@
+{
+  "name": "siteory",
+  "owner": {
+    "name": "Siteory",
+    "url": "https://siteory.co"
+  },
+  "plugins": [
+    {
+      "name": "siteory",
+      "source": "./",
+      "description": "Audit websites for SEO, AI visibility and security, fix the findings and verify them with the Siteory checker and MCP server."
+    }
+  ]
+}

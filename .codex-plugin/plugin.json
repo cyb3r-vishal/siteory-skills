@@ -1,0 +1,30 @@
+{
+  "name": "siteory",
+  "version": "0.1.0",
+  "description": "Audit websites for SEO, AI visibility and security from Codex: skills that check local builds with the bundled Siteory checker and fix the findings, plus the Siteory MCP server for full audits, reports and rescans.",
+  "author": {
+    "name": "Siteory",
+    "url": "https://siteory.co"
+  },
+  "homepage": "https://siteory.co/mcp",
+  "repository": "https://github.com/cyb3r-vishal/siteory-skills",
+  "license": "Proprietary",
+  "keywords": ["seo", "aeo", "geo", "ai-visibility", "llms-txt", "security-headers", "audit", "mcp"],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Siteory",
+    "shortDescription": "Audit and fix SEO, AI visibility and security",
+    "longDescription": "Siteory checks a site or local dev server for SEO, AI visibility (AEO/GEO) and security problems. The skills run the bundled checker against localhost or a deployed URL, fix the findings in your code by framework, and verify each fix. The Siteory MCP server adds full hosted audits, Markdown reports, rescans and before/after comparisons. Sign-in is OAuth in the browser; there is no API key.",
+    "developerName": "Siteory",
+    "category": "Developer Tools",
+    "websiteURL": "https://siteory.co/mcp",
+    "privacyPolicyURL": "https://siteory.co/privacy",
+    "termsOfServiceURL": "https://siteory.co/terms",
+    "defaultPrompt": [
+      "Check http://localhost:3000 with Siteory and fix the highest-priority findings.",
+      "Why can't ChatGPT and Claude read my homepage? Check it with Siteory.",
+      "Add the missing security headers to this app and verify them with Siteory."
+    ]
+  }
+}

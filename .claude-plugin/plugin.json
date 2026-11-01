@@ -1,0 +1,15 @@
+{
+  "name": "siteory",
+  "displayName": "Siteory",
+  "version": "0.1.0",
+  "description": "Audit websites for SEO, AI visibility and security from your coding agent. Includes skills that check local builds with the bundled Siteory checker and fix the findings, and the Siteory MCP server for full audits, reports and rescans.",
+  "author": {
+    "name": "Siteory",
+    "url": "https://siteory.co"
+  },
+  "homepage": "https://siteory.co/mcp",
+  "privacyPolicyUrl": "https://siteory.co/privacy",
+  "repository": "https://github.com/cyb3r-vishal/siteory-skills",
+  "license": "Proprietary",
+  "keywords": ["seo", "aeo", "geo", "ai-visibility", "llms-txt", "security-headers", "csp", "audit", "mcp"]
+}

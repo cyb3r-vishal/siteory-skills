@@ -1,0 +1,23 @@
+Siteory License
+
+Copyright (c) 2026 Siteory. All rights reserved.
+
+This package contains the Siteory agent skills, the siteory command-line tool
+and the bundled Siteory checker (cli/engine.mjs and every
+skills/*/scripts/siteory.mjs).
+
+1. Anyone may install the skills and the command-line tool.
+
+2. Running the Siteory checker requires an active paid Siteory plan and a
+   sign-in with that account. Free Siteory accounts may not use it.
+
+3. You may not redistribute or modify the bundled checker, or remove or bypass
+   its sign-in and plan check.
+
+4. Third-party code bundled in the checker stays under its own license. Those
+   notices are at the top of each checker file.
+
+5. The software is provided "as is", without warranty of any kind.
+
+6. Use of the software and of Siteory's services is subject to the Siteory
+   terms: https://siteory.co/terms

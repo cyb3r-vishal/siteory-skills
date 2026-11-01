@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "siteory": {
+      "type": "http",
+      "url": "https://api.siteory.co/mcp"
+    }
+  }
+}

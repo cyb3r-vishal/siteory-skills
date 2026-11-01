@@ -1,0 +1,18 @@
+# {Site or product name, as it appears in the domain or homepage title}
+
+> {One sentence: what the site is, who it is for, and what it does.}
+
+{Optional: two or three sentences of plain facts an agent should know, such as pricing model, regions served or the main audience.}
+
+## {Main section, for example Product or Services}
+
+- [{Page title}]({https://www.example.com/page}): {What the page covers, in one line.}
+- [{Page title}]({https://www.example.com/page}): {What the page covers, in one line.}
+
+## {Second section, for example Docs or Guides}
+
+- [{Page title}]({https://www.example.com/page}): {What the page covers, in one line.}
+
+## Optional
+
+- [{Lower-priority page}]({https://www.example.com/page}): {What the page covers, in one line.}

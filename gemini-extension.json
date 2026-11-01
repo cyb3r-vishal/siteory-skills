@@ -1,0 +1,10 @@
+{
+  "name": "siteory",
+  "version": "0.1.0",
+  "description": "Audit websites for SEO, AI visibility and security: skills that check local builds with the bundled Siteory checker and fix the findings, plus the Siteory MCP server for full audits, reports and rescans.",
+  "mcpServers": {
+    "siteory": {
+      "httpUrl": "https://api.siteory.co/mcp"
+    }
+  }
+}

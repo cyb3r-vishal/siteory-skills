@@ -1,0 +1,48 @@
+{
+  "name": "siteory",
+  "version": "0.1.0",
+  "description": "Check websites for SEO, AI visibility and security issues from the command line, and connect coding agents to the Siteory MCP server and agent skills.",
+  "type": "module",
+  "bin": {
+    "siteory": "cli/siteory.mjs"
+  },
+  "files": [
+    "cli/",
+    "skills/",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test",
+    "vendor": "node scripts/vendor-engine.mjs",
+    "validate": "node scripts/validate-skills.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cyb3r-vishal/siteory-skills.git"
+  },
+  "homepage": "https://siteory.co/mcp",
+  "bugs": {
+    "url": "https://github.com/cyb3r-vishal/siteory-skills/issues"
+  },
+  "author": "Siteory (https://siteory.co)",
+  "license": "SEE LICENSE IN LICENSE",
+  "keywords": [
+    "mcp",
+    "agent-skills",
+    "seo",
+    "aeo",
+    "geo",
+    "llms-txt",
+    "security-headers",
+    "claude-code",
+    "codex",
+    "cursor"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}

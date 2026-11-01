@@ -1,0 +1,13 @@
+interface:
+  display_name: "Siteory"
+  short_description: "Audit and fix SEO, AI visibility and security"
+  default_prompt: "Use $siteory to check http://localhost:3000, fix the highest-priority findings and verify each fix."
+policy:
+  allow_implicit_invocation: true
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "siteory"
+      description: "Siteory MCP server for hosted audits, reports and rescans"
+      transport: "streamable_http"
+      url: "https://api.siteory.co/mcp"
