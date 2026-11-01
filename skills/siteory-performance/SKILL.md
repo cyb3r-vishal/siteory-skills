@@ -2,7 +2,7 @@
 name: siteory-performance
 description: Find and fix what makes pages heavy or slow to render with the Siteory checker, then verify each fix. Statically checks what a browser downloads from a local production build or a deployed URL. Covers HTML size, render-blocking scripts in the head, JavaScript and CSS weight, oversized images, PNG and JPEG files that should be WebP or AVIF, images without width and height (layout shift), missing lazy loading, @font-face without font-display, many third-party scripts, and on deployed sites missing gzip or Brotli compression and short cache lifetimes for hashed assets. Use when the user asks about page speed, performance, bundle size, slow loading, Core Web Vitals, LCP or CLS, image optimization, caching or compression, or wants a site fast before launch. Has fix guides for Next.js (next/image, next/font, next/script), Astro, Vite and React, WordPress, and hosts such as Vercel, Netlify, Cloudflare, nginx and Apache.
 license: Proprietary. See LICENSE.
-compatibility: Requires Node.js 20 or later for the bundled checker (scripts/siteory.mjs). Works offline against localhost; the compression and cache checks need the deployed URL.
+compatibility: Requires Node.js 20 or later for the bundled checker (scripts/siteory.mjs). Runs on this machine, including against localhost. Needs a paid Siteory plan, a one-time browser sign-in (npx siteory login), and a connection to api.siteory.co at least once a day. The compression and cache checks need the deployed URL.
 metadata:
   author: siteory
   version: "0.1.0"

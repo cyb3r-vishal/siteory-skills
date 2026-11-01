@@ -2,7 +2,7 @@
 name: siteory-social
 description: Find and fix link preview (share card) problems with the Siteory checker, then verify each fix. Checks the Open Graph and Twitter card tags of every page and the share image itself. Covers missing og:title, og:description or og:image, relative image URLs, og:image or og:url on localhost, private or preview hosts, images that fail to load or are not images, images smaller than 1200x630 or over 5 MB, a missing or invalid twitter:card, and an og:url that disagrees with the canonical URL. Use when the user asks why a shared link shows no image or the wrong text on Facebook, LinkedIn, X, Slack, Discord, WhatsApp or iMessage, mentions Open Graph, og:image, social cards, share images or Twitter cards, or wants share previews right before launch. Has fix guides for Next.js (metadata API and opengraph-image), Astro, Vite and React, WordPress and static hosts, and names the platform debuggers that refresh cached previews.
 license: Proprietary. See LICENSE.
-compatibility: Requires Node.js 20 or later for the bundled checker (scripts/siteory.mjs). Works offline against localhost; share images on other hosts need --external, and platform debuggers need a public URL.
+compatibility: Requires Node.js 20 or later for the bundled checker (scripts/siteory.mjs). Runs on this machine, including against localhost. Needs a paid Siteory plan, a one-time browser sign-in (npx siteory login), and a connection to api.siteory.co at least once a day. Share images on other hosts need --external, and platform debuggers need a public URL.
 metadata:
   author: siteory
   version: "0.1.0"

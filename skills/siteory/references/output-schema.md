@@ -128,16 +128,6 @@ With `--prod https://www.example.com`, the checker rewrites `https://www.example
 
 The local-only lenses fetch at most 60 same-origin files each (4 at a time): scripts up to 5 MB, images up to 2 MB, share images up to 8 MB. The launch lens adds one request to a random unknown path, `/favicon.ico` when no icon is linked, and on deployed targets one request each to the `http://` and the www or apex twin of the start URL. With `--external`, the links lens requests at most 100 unique outbound URLs (10 per host, 64 KB each), and the social lens fetches share images on other hosts; private network addresses are never requested.
 
-## CI example (GitHub Actions)
+## CI
 
-```yaml
-- run: npm ci && npm run build
-- run: npx next start -p 3000 &
-- run: npx -y wait-on http://localhost:3000
-- run: npx -y siteory@0.1.0 check http://localhost:3000 --prod https://www.example.com --fail-on high --json > siteory.json
-- uses: actions/upload-artifact@v4
-  if: always()
-  with: { name: siteory, path: siteory.json }
-```
-
-Exit code 1 fails the step when a high or critical finding remains. Use `--fail-on medium` for a stricter gate, and `--lens all` to gate on every lens including the local-only ones (the siteory-launch skill has a complete workflow). Check the local production build: preview deployments that send noindex or require a login fail the gate by design.
+Not yet: the checker signs in through a browser on your own machine, so a CI runner cannot sign in. Run the gate locally before you deploy; CI sign-in tokens are planned.

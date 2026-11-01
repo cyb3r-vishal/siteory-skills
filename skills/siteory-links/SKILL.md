@@ -2,7 +2,7 @@
 name: siteory-links
 description: Find and fix link problems with the Siteory checker, then verify each fix. Covers internal links that go through redirects, mixed content (http scripts, stylesheets, iframes and images on https pages), links and assets that point at localhost, private addresses or another dev server, links to preview and staging hosts such as vercel.app, netlify.app, pages.dev or ngrok, anchor links whose target id does not exist, rel=nofollow on internal links, and with --external broken outbound links. Use when the user asks about broken or dead links, 404s from links, redirects, link rot, mixed content warnings, staging or localhost URLs left in a build, anchor links that do not jump, or a link check before launch. Has fix guides for Next.js, Astro, Vite and React, WordPress and static hosts.
 license: Proprietary. See LICENSE.
-compatibility: Requires Node.js 20 or later for the bundled checker (scripts/siteory.mjs). Works offline against localhost; external link checks (--external) need internet access.
+compatibility: Requires Node.js 20 or later for the bundled checker (scripts/siteory.mjs). Runs on this machine, including against localhost. Needs a paid Siteory plan, a one-time browser sign-in (npx siteory login), and a connection to api.siteory.co at least once a day. External link checks (--external) need internet access.
 metadata:
   author: siteory
   version: "0.1.0"

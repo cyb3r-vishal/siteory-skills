@@ -2,7 +2,7 @@
 name: siteory
 description: Audit a website or local dev server for SEO, AI visibility (AEO and GEO) and security with Siteory, fix the findings in code and verify each fix. Locally it also checks performance, accessibility, structured data, links, social previews and launch readiness. Use when the user mentions Siteory, asks to audit, scan or check a site or a localhost URL, asks why pages are not indexed or not cited by AI assistants, wants a pre-deploy quality gate, or wants to confirm that a fix worked. Runs the bundled local checker (scripts/siteory.mjs or npx siteory) and, for deployed sites, the hosted Siteory MCP tools quick_audit, start_audit, get_audit, list_issues, get_issue, get_report, rescan and compare_audits.
 license: Proprietary. See LICENSE.
-compatibility: Requires Node.js 20 or later for the bundled checker. Hosted audits use the Siteory MCP server at https://api.siteory.co/mcp and a Siteory account with browser sign-in.
+compatibility: Requires Node.js 20 or later for the bundled checker. Hosted audits use the Siteory MCP server at https://api.siteory.co/mcp and a Siteory account on a paid plan (Single or Pro) with browser sign-in.
 metadata:
   author: siteory
   version: "0.1.0"

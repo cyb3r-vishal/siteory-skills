@@ -190,7 +190,7 @@ Not yet: the checker signs in through a browser on your own machine, so a CI run
 | Security | Passive: response headers, CORS, secrets in client JavaScript | Passive plus active checks, verifiers, Supabase row-level security and exposure data |
 | Performance, accessibility, structured data, links, social previews, launch checks | Yes, as opt-in lenses | No |
 | History, reports, comparisons | No | Yes |
-| Account or credits | A paid Siteory plan and `siteory login`; no credits used | The MCP tools need a paid Siteory plan. Previews are free; full audits use your free audit or credits |
+| Account or credits | A paid Siteory plan and `npx siteory login`; no credits used | The MCP tools need a paid Siteory plan. Previews are free; full audits use your free audit or credits |
 
 ## Privacy and safety
 
@@ -198,7 +198,7 @@ Not yet: the checker signs in through a browser on your own machine, so a CI run
 - It refuses URLs with credentials, link-local addresses and cloud metadata hosts, even when an agent asks.
 - Secrets found in client JavaScript are reported as type and fingerprint; the checker never prints them.
 - `siteory setup` writes only skill folders named `siteory*` and the `siteory` entry in each agent's MCP config, after backing up the file. It stores no tokens: each agent keeps its own OAuth tokens.
-- `siteory login` saves the checker's sign-in in `~/.siteory/credentials.json`, readable only by you where the system supports it. `siteory logout` revokes it and deletes the file.
+- `npx siteory login` saves the checker's sign-in in `~/.siteory/credentials.json`, readable only by you where the system supports it. `npx siteory logout` revokes it and deletes the file.
 - Hosted audits run on Siteory's servers and are stored in your Siteory account. See the [privacy policy](https://siteory.co/privacy) and [terms](https://siteory.co/terms).
 - Only audit sites you own or are allowed to test.
 
@@ -213,7 +213,7 @@ claude plugin validate . --strict
 npm pack --dry-run
 ```
 
-The check engine is built in the Siteory API repository (`npm run build:cli`) and vendored into `cli/engine.mjs` and every `skills/*/scripts/siteory.mjs`, so the npm package and each skill run the same version offline.
+The check engine is built in the Siteory API repository (`npm run build:cli`) and vendored into `cli/engine.mjs` and every `skills/*/scripts/siteory.mjs`, so the npm package and each skill run the same version.
 
 ## License
 

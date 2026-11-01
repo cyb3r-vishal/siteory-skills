@@ -2,7 +2,7 @@
 name: siteory-launch
 description: Run a pre-launch gate on a site with the Siteory checker before it ships, and fix what blocks the release. Runs every Siteory lens (SEO, AI visibility, security, performance, accessibility, structured data, links and social previews) on the production build and fails on high or critical findings, plus launch checks for a development build or dev server in production, unknown URLs that answer 200 (soft 404), starter-template and placeholder text, a missing favicon, a broken web manifest, scripts, stylesheets or images that fail to load, a missing sitemap, no http-to-https redirect, a www and apex host that both answer, and public source maps. Use when the user is about to launch, deploy, ship or go live, asks for a launch or pre-deploy checklist, or a release gate, or built the site with an AI app builder or by vibe coding and wants it production-ready.
 license: Proprietary. See LICENSE.
-compatibility: Requires Node.js 20 or later for the bundled checker (scripts/siteory.mjs). Works offline against localhost; the https, www and host checks need the deployed URL.
+compatibility: Requires Node.js 20 or later for the bundled checker (scripts/siteory.mjs). Runs on this machine, including against localhost. Needs a paid Siteory plan, a one-time browser sign-in (npx siteory login), and a connection to api.siteory.co at least once a day. The https, www and host checks need the deployed URL.
 metadata:
   author: siteory
   version: "0.1.0"

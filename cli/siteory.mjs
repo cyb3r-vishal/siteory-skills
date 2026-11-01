@@ -27,7 +27,7 @@ Usage:
   siteory help [command]          Show help for a command
   siteory --version               Print the version
 
-Checks need a paid Siteory plan (from $9) and a sign-in on this machine: run siteory login once.
+Checks need a paid Siteory plan (from $9) and a sign-in on this machine: run npx siteory login once.
 Plans: https://siteory.co/pricing
 
 Common check options (siteory check --help lists all):
