@@ -8,7 +8,7 @@
 <br>
 
 [![npm](https://img.shields.io/npm/v/siteory?style=flat-square&logo=npm&logoColor=white&label=npm&color=4f46e5)](https://www.npmjs.com/package/siteory)
-[![Node.js 20+](https://img.shields.io/badge/node-20%2B-0b0b0f?style=flat-square&logo=nodedotjs&logoColor=white)](https://nodejs.org)
+[![Node.js 20+](https://img.shields.io/badge/node-20%2B-339933?style=flat-square&logo=nodedotjs&logoColor=white)](https://nodejs.org)
 [![MCP server](https://img.shields.io/badge/MCP-api.siteory.co%2Fmcp-0275b3?style=flat-square)](#connect-the-mcp-server-by-hand)
 [![10 agent skills](https://img.shields.io/badge/agent_skills-10-8b5cf6?style=flat-square)](#skills)
 [![License: proprietary](https://img.shields.io/badge/license-proprietary-5b5e67?style=flat-square)](LICENSE)
