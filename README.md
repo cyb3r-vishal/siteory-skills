@@ -11,7 +11,7 @@
 [![Node.js 20+](https://img.shields.io/badge/node-20%2B-339933?style=flat-square&logo=nodedotjs&logoColor=white)](https://nodejs.org)
 [![MCP server](https://img.shields.io/badge/MCP-api.siteory.co%2Fmcp-0275b3?style=flat-square)](#connect-the-mcp-server-by-hand)
 [![10 agent skills](https://img.shields.io/badge/agent_skills-10-8b5cf6?style=flat-square)](#skills)
-[![License: proprietary](https://img.shields.io/badge/license-proprietary-5b5e67?style=flat-square)](LICENSE)
+[![License: MIT](https://img.shields.io/badge/license-MIT-5b5e67?style=flat-square)](LICENSE)
 
 **[Quick start](#quick-start)** · **[Skills](#skills)** · **[Install](#install)** · **[MCP server](#connect-the-mcp-server-by-hand)** · **[CLI](#use-the-cli)** · **[siteory.co](https://siteory.co)**
 
@@ -483,7 +483,7 @@ The check engine is built in the Siteory API repository (`npm run build:cli`) an
 
 ## License
 
-Proprietary. Anyone may install the skills and the CLI; running the Siteory checker requires an active paid Siteory plan. You may not redistribute or modify the bundled checker. See [LICENSE](LICENSE) and the [terms](https://siteory.co/terms).
+MIT. See [LICENSE](LICENSE). The third-party code bundled in the checker keeps its own MIT and BSD licenses, listed at the top of each checker file. The license covers this code; running the checker as shipped still needs a paid Siteory plan and a sign-in, and Siteory's services are covered by the [terms](https://siteory.co/terms).
 
 <br>
 

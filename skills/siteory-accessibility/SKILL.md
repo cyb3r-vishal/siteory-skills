@@ -1,7 +1,7 @@
 ---
 name: siteory-accessibility
 description: Find and fix accessibility barriers in a site's HTML with the Siteory checker, then verify each fix. Covers links and buttons without an accessible name, form fields without labels, duplicate ids, aria-hidden on focusable elements, positive tabindex, viewports that disable zoom, iframes without titles, vague link text such as "read more", and autoplaying sound, together with the related alt text, page language and heading checks. Use when the user asks for an accessibility (a11y) audit or fixes, mentions WCAG, ADA, screen readers, keyboard users, ARIA, labels or alt text, or wants a site accessible before launch. Has fix patterns for HTML and JSX and notes for Next.js, Astro, Vite and React, and WordPress, and says when to use axe or Lighthouse for contrast, focus and keyboard checks.
-license: Proprietary. See LICENSE.
+license: MIT
 compatibility: Requires Node.js 20 or later for the bundled checker (scripts/siteory.mjs). Runs on this machine, including against localhost. Needs a paid Siteory plan, a one-time browser sign-in (npx siteory login), and a connection to api.siteory.co at least once a day. Contrast, focus and keyboard checks need a browser tool such as axe or Lighthouse.
 metadata:
   author: siteory

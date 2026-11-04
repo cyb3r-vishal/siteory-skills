@@ -1,7 +1,7 @@
 ---
 name: siteory-ai-visibility
 description: Make a site readable and citable by AI search and assistants (ChatGPT, Claude, Perplexity, Google AI Overviews) with the Siteory checker, then verify each fix. Covers AI crawler rules in robots.txt (OAI-SearchBot, ChatGPT-User, Claude-SearchBot, PerplexityBot, GPTBot, ClaudeBot, Google-Extended), llms.txt and llms-full.txt, content that needs JavaScript to appear, thin pages, JSON-LD Organization identity, semantic landmarks, and question headings without answers. Use when the user mentions AEO, GEO, LLM SEO, AI visibility, AI crawlers, llms.txt, or asks why AI tools cannot see, read or cite their site.
-license: Proprietary. See LICENSE.
+license: MIT
 compatibility: Requires Node.js 20 or later for the bundled checker (scripts/siteory.mjs). Runs on this machine, including against localhost. Needs a paid Siteory plan, a one-time browser sign-in (npx siteory login), and a connection to api.siteory.co at least once a day. The optional hosted audit uses the Siteory MCP server.
 metadata:
   author: siteory

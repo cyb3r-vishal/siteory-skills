@@ -72,17 +72,16 @@ test("package.json ships a zero-dependency CLI with the skills", () => {
   for (const skill of listSkills()) assert.ok(existsSync(join(skill.dir, "scripts", "siteory.mjs")), skill.name);
 });
 
-test("the license is proprietary everywhere it is declared", () => {
+test("the license is MIT everywhere it is declared", () => {
   const license = read("LICENSE");
-  assert.ok(license.startsWith("Siteory License\n\nCopyright (c) 2026 Siteory. All rights reserved.\n"));
-  assert.match(license, /requires an active paid Siteory plan/);
-  assert.ok(license.includes("https://siteory.co/terms"));
-  assert.equal(pkg.license, "SEE LICENSE IN LICENSE");
-  for (const path of [".claude-plugin/plugin.json", ".codex-plugin/plugin.json"]) assert.equal(json(path).license, "Proprietary", path);
+  assert.ok(license.startsWith("MIT License\n\nCopyright (c) 2026 Siteory\n"));
+  assert.ok(license.includes("Permission is hereby granted, free of charge"));
+  assert.equal(pkg.license, "MIT");
+  for (const path of [".claude-plugin/plugin.json", ".codex-plugin/plugin.json"]) assert.equal(json(path).license, "MIT", path);
   for (const skill of listSkills()) {
-    assert.equal(parseFrontmatter(readFileSync(join(skill.dir, "SKILL.md"), "utf8")).data.license, "Proprietary. See LICENSE.", skill.name);
+    assert.equal(parseFrontmatter(readFileSync(join(skill.dir, "SKILL.md"), "utf8")).data.license, "MIT", skill.name);
   }
-  assert.match(read("README.md"), /\n## License\n\nProprietary\./);
+  assert.match(read("README.md"), /\n## License\n\nMIT\./);
 });
 
 test("every skill says it needs a paid plan, how to sign in and what exit code 5 means", () => {

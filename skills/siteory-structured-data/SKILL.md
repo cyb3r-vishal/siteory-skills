@@ -1,7 +1,7 @@
 ---
 name: siteory-structured-data
 description: Validate and fix JSON-LD structured data with the Siteory checker, then verify each fix. Checks every application/ld+json block on a local build or deployed site for the properties Google requires for rich results (Product, Offer, AggregateRating, Review, BreadcrumbList, FAQPage, Event, JobPosting, Recipe, VideoObject, SoftwareApplication, LocalBusiness, Organization) and the recommended ones for Article, Organization, LocalBusiness and Product, plus a missing @context, relative, localhost or staging URLs, dates that are not ISO 8601, a homepage without Organization or WebSite identity, and retired types such as HowTo. Use when the user mentions structured data, schema markup, schema.org, JSON-LD, rich results or rich snippets, review stars, breadcrumbs in search, or structured data errors in Google Search Console. Has a valid example for each type and guides for Next.js, Astro, Vite and React, WordPress and static site generators.
-license: Proprietary. See LICENSE.
+license: MIT
 compatibility: Requires Node.js 20 or later for the bundled checker (scripts/siteory.mjs). Runs on this machine, including against localhost. Needs a paid Siteory plan, a one-time browser sign-in (npx siteory login), and a connection to api.siteory.co at least once a day. Google's Rich Results Test needs a public URL or pasted code.
 metadata:
   author: siteory

@@ -1,7 +1,7 @@
 ---
 name: siteory-seo
 description: Find and fix technical SEO problems in a web app with the Siteory checker, then verify each fix. Covers titles and meta descriptions, H1 and heading order, canonical URLs, noindex, robots.txt, XML sitemaps, broken internal links, image alt text, Open Graph and Twitter cards, viewport, html lang, HTTPS and slow first byte. Use when the user asks for an SEO audit or SEO fixes, asks why pages are not indexed or show the wrong title in search, mentions metadata, canonical, sitemap or robots.txt, or wants a site search-ready before deploy. Has fix guides for Next.js (App Router, Next 16), Astro, Vite and React SPAs, WordPress, Nuxt, SvelteKit, React Router, Remix and Gatsby.
-license: Proprietary. See LICENSE.
+license: MIT
 compatibility: Requires Node.js 20 or later for the bundled checker (scripts/siteory.mjs). Runs on this machine, including against localhost. Needs a paid Siteory plan, a one-time browser sign-in (npx siteory login), and a connection to api.siteory.co at least once a day. The optional hosted audit uses the Siteory MCP server.
 metadata:
   author: siteory

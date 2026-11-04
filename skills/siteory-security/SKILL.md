@@ -1,7 +1,7 @@
 ---
 name: siteory-security
 description: Check and harden a site's browser security headers and client bundles with the Siteory checker, then verify each fix. Covers Content-Security-Policy (with a report-only rollout and nonces), Strict-Transport-Security (HSTS), X-Content-Type-Options, X-Frame-Options and frame-ancestors, Referrer-Policy, Permissions-Policy, wildcard CORS, and API keys or tokens leaked into client JavaScript (AWS, Stripe, GitHub, Slack, private keys, Supabase service_role). Use when the user asks about security headers, CSP, HSTS, clickjacking, CORS, exposed secrets in the frontend bundle, or a pre-deploy security check, on Next.js, Vercel, Netlify, Cloudflare, nginx, Apache, WordPress, Astro, Vite, Nuxt or SvelteKit.
-license: Proprietary. See LICENSE.
+license: MIT
 compatibility: Requires Node.js 20 or later for the bundled checker (scripts/siteory.mjs). Runs on this machine, including against localhost. Needs a paid Siteory plan, a one-time browser sign-in (npx siteory login), and a connection to api.siteory.co at least once a day. The optional full security audit uses the Siteory MCP server.
 metadata:
   author: siteory

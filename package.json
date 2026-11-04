@@ -1,6 +1,6 @@
 {
   "name": "siteory",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Check websites for SEO, AI visibility and security issues from the command line, and connect coding agents to the Siteory MCP server and agent skills.",
   "type": "module",
   "bin": {
@@ -29,7 +29,7 @@
     "url": "https://github.com/cyb3r-vishal/siteory-skills/issues"
   },
   "author": "Siteory (https://siteory.co)",
-  "license": "SEE LICENSE IN LICENSE",
+  "license": "MIT",
   "keywords": [
     "mcp",
     "agent-skills",
